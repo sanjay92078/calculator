@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASIO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+           
+            <div class="input">
+                <input type=" text " placeholder="0" id="result" class="display" readonly/>
+            </div>
+            <div class="buttons1">
+                <button onclick="clearCalcScreen()">C</button>
+                <button onclick="displayContent('%')">%</button>
+                <button onclick="removeCalc()"> < </button>
+                <button onclick="displayContent('/')">/</button>
+                
+            </div>
+            <div class="buttons1">
+                <button onclick="displayContent('7')">7</button>
+                <button onclick="displayContent('8')">8</button>
+                <button onclick="displayContent('9')">9</button>
+                <button onclick="displayContent('*')">*</button>
+            </div>
+            <div class="buttons1">
+                <button onclick="displayContent('4')">4</button>
+                <button onclick="displayContent('5')">5</button>
+                <button onclick="displayContent('6')">6</button>
+                <button onclick="displayContent('-')">-</button>
+            </div>
+            <div class="buttons1">
+                <button onclick="displayContent('1')">1</button>
+                <button onclick="displayContent('2')">2</button>
+                <button onclick="displayContent('3')">3</button>
+                <button onclick="displayContent('+')">+</button>
+            </div>
+            <div class="buttons1">
+                <button onclick="displayContent('00')">00</button>
+                <button onclick="displayContent('0')">0</button>
+                <button onclick="displayContent('.')">.</button>
+                <button onclick="Calcout()">=</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<!-- script -->
+ <script src="./main.js"></script>
+</html>
